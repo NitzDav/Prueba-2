@@ -1,1 +1,21 @@
-hola mundo
+git config --global user.name “NitzDav”
+
+git config --global user.email "davidnitzsche92@gmail.com"
+
+git config --list
+
+git init
+
+git remote add name url
+
+git status
+
+git add .
+
+git add archivo
+
+git commit -m "mensaje de confirmación"
+
+git push <nombre-remoto> <nombre-de-tu-rama>
+
+git push origin main
